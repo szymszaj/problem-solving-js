@@ -1,0 +1,1 @@
+let isValid = function (s) {};
