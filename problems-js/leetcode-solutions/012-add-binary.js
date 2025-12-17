@@ -23,3 +23,7 @@ let addBinary = function (a, b) {
 
   return result;
 };
+
+console.log(addBinary("1010", "1011"));
+console.log(addBinary("11", "1"));
+console.log(addBinary("0", "0"));
