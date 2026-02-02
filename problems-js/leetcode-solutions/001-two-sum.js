@@ -5,3 +5,8 @@ let createCounter = function (n) {
     return count++;
   };
 };
+
+let counter = createCounter(10);
+counter();
+counter();
+counter();
