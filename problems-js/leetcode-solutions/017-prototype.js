@@ -4,3 +4,9 @@ Array.prototype.last = function () {
   }
   return this[this.length - 1];
 };
+
+let nums = [null, {}, 3];
+console.log(nums.last());
+
+let empty = [];
+console.log(empty.last());
