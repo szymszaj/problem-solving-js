@@ -5,3 +5,6 @@ let reduce = function (nums, fn, init) {
   }
   return acc;
 };
+
+const sum = reduce([1, 2, 3, 4, 5], (acc, curr) => acc + curr, 0);
+console.log("Sum:", sum);
